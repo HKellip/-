@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+.login{
+    text-align: center;
+    color: #00f;
+    font-weight: bold;
+    animation-name: bounce;
+}
