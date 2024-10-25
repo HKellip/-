@@ -1,5 +1,12 @@
+import Logo from "@/components/Logo"
+
+
 export default function teste(){
     return(
-        <div>teste</div>
+        <div>
+            <Logo/>
+            teste
+
+        </div>
     )
 }

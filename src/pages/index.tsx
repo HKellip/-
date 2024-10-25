@@ -8,7 +8,7 @@ import Link from "next/link";
 
 function Login(){
   return (
-    <div className=' text-center text-lg '>
+    <div className=' text-center text-lg pt-16'>
       <div className='login'>LOGIN</div>
       <form action="teste" method="POST">
         <p>
@@ -30,8 +30,8 @@ function Login(){
 export default function Home() {
   return (
     <div>
-      <link rel="stylesheet" href="/teste" />
-      <Login/>
+      <Logo/>
+      <Login />
       <Link href={"/teste"}>
         teste
       </Link>
